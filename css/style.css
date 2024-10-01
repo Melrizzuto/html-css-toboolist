@@ -18,6 +18,7 @@ body {
 header {
     background-color: white;
     width: 100%;
+    font-size: 1em;
 }
 
 .box {
@@ -38,30 +39,47 @@ header {
 
 nav{
     padding-top: 20px;
+    margin: 0 auto;
 }
 
 .button{
-    width: 20px;
-    height: 20px;
-    background-color: blue;
+    width: 60px;
+    height: 30px; 
     display: inline-block;
     text-align: center;
-    line-height: 20px;
-    border-radius: 2%;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 0.5em;
+    color: white;
+    padding: 1px;
 }
 
+#addSection{
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+#addTask{
+    background-color: rgb(0, 179, 255);
+}
 /* main */
 
 main{
     padding-top: 1px;
+    font-size: 0.8em;
+    margin: 0 auto;
 }
 
+.padding-bottom{
+    padding-bottom: 20px;
+}
 
 .container {
     background-color: white;
     margin: 0 auto;
     width: 80%;
     height: auto;
+    border-radius: 2px;
 }
 
 ul{
@@ -71,15 +89,13 @@ ul{
 
 .square {
     width: 50px;
-    height: 20px;
-    
+    height: 20px; 
     display: inline-block;
     text-align: center;
     line-height: 20px;
-    border-radius: 30%;
+    border-radius: 10px;
     font-size: 0.5em;
     color: white;
-
 }
 
 .sfondoedit{
@@ -92,4 +108,13 @@ ul{
 
 .sfondorecruit{
     background-color: rgb(107, 192, 182);
+}
+.sfondomobile{
+    background-color: rgb(255, 130, 46);
+}
+.sfondosales{
+    background-color: rgb(217, 236, 107);
+}
+.sfondowebsite{
+    background-color: rgb(236, 107, 161);
 }
