@@ -1,3 +1,5 @@
+/* general */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,18 +13,13 @@ body {
     font-style: normal;
 }
 
+/* header */
+
 header {
     background-color: white;
     width: 100%;
 }
 
-nav{
-    padding-top: 20px;
-}
-
-main{
-    padding-top: 1px;
-}
 .box {
     height: 50px;
     display: inline-block;
@@ -37,6 +34,29 @@ main{
     margin-left: 10px;
 }
 
+/* nav */
+
+nav{
+    padding-top: 20px;
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 2%;
+}
+
+/* main */
+
+main{
+    padding-top: 1px;
+}
+
+
 .container {
     background-color: white;
     margin: 0 auto;
@@ -44,13 +64,32 @@ main{
     height: auto;
 }
 
-.button{
-    margin: 4px 2px;
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.square {
+    width: 50px;
+    height: 20px;
+    
     display: inline-block;
     text-align: center;
-    line-height: 50px;
-}
-.b1{
-    background-color: #008CBA;
+    line-height: 20px;
+    border-radius: 30%;
+    font-size: 0.5em;
+    color: white;
 
+}
+
+.sfondoedit{
+    background-color: rgb(0, 179, 255);
+}
+
+.sfondogoals{
+    background-color: blueviolet;
+}
+
+.sfondorecruit{
+    background-color: rgb(107, 192, 182);
 }
