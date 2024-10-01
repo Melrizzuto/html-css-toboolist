@@ -51,7 +51,6 @@ nav{
     border-radius: 5px;
     font-size: 0.5em;
     color: white;
-    padding: 1px;
 }
 
 #addSection{
@@ -80,6 +79,9 @@ main{
     width: 60%;
     height: auto;
     border-radius: 2px;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 ul{
