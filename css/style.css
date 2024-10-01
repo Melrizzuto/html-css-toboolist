@@ -1,21 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(210, 210, 210);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-header{
+header {
     background-color: white;
     width: 100%;
 }
 
+nav{
+    padding-top: 20px;
+}
+
+main{
+    padding-top: 1px;
+}
 .box {
     height: 50px;
     display: inline-block;
@@ -25,7 +32,25 @@ header{
     margin: 10px 10px;
 }
 
-#logo img{
+#logo img {
     vertical-align: middle;
     margin-left: 10px;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+
+.button{
+    margin: 4px 2px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+.b1{
+    background-color: #008CBA;
+
 }
