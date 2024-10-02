@@ -11,6 +11,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(38, 38, 38);
 }
 
 /* header */
@@ -42,16 +43,12 @@ nav{
     margin: 0 auto;
 }
 
-.button{
-    width: 60px;
-    height: 30px; 
-    display: inline-block;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 5px;
-    font-size: 0.5em;
-    color: white;
+.btn{
+    padding: 6px 12px;
+    border-radius: 6px;
+    border-color: transparent;
 }
+
 
 #addSection{
     background-color: white;
@@ -59,6 +56,7 @@ nav{
     color: grey;
 }
 #addTask{
+    color: white;
     background-color: rgb(0, 179, 255);
 }
 /* main */
@@ -76,7 +74,7 @@ main{
 .container {
     background-color: white;
     margin: 0 auto;
-    width: 60%;
+    width: 1200px;
     height: auto;
     border-radius: 2px;
     padding-left: 3%;
@@ -87,16 +85,17 @@ main{
 ul{
     list-style-position: inside;
     list-style-type: none;
+    padding-top: 5px;
 }
 
 .square {
-    width: 50px;
-    height: 20px; 
+    width: 60px;
+    height: 30px; 
     display: inline-block;
     text-align: center;
-    line-height: 20px;
-    border-radius: 10px;
-    font-size: 0.5em;
+    line-height: 30px;
+    border-radius: 16px;
+    font-size: 0.8em;
     color: white;
 }
 
